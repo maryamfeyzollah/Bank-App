@@ -6,12 +6,14 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        فقط با چند مرحله <br className="sm:block hidden text-justify" /> بهترین
+        پیشنهاد را انتخاب کن.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
+        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+        از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+        سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای
+        متنوع با هدف بهبود ابزارهای کاربردی می باشد.
       </p>
 
       <Button styles={`mt-10`} />
