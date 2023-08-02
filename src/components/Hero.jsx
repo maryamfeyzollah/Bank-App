@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY} text-justify`}
+      className={`flex md:flex-row flex-col ${styles.paddingY} `}
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}>
           تیم ما از کارشناسان مجرب استفاده می‌کند تا یک روش‌شناسی برای شناسایی
           کارت‌های اعتباری با بیشترین احتمال تطبیق با نیازهای شما ارائه دهد. ما
           نرخ درصد سالیانه و هزینه‌های سالانه را مورد بررسی قرار می‌دهیم.
